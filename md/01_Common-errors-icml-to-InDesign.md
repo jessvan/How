@@ -105,3 +105,11 @@ The copy editor will start by making changes to the original docx file, then the
 **Translation**
 
 This means the designer engages with the content twice: broadly creating the layout using the first icml text and then fine-tuning details once the editor has made their last changes.
+
+## Updated the icml file and nothing is marked up or styled
+
+**Translation**
+This is likely caused because the link to the icml hasn't correctly linked, you will see no H1 headers applied and the whole text is set in minion pro or some default font. The links panel likely has a little yellow notification warning you of the broken link.
+
+### solution
+Check your links panel, and click relink. 
