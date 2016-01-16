@@ -22,8 +22,6 @@ Rights: CC BY-NC 4.0
 
 # Starting with InDesign & Icmls
 
-<span class="author">by the PublishingLab</span>
-
 Welcome to the PublishingLab Workflow.
 
 This is the bigger picture of how we create hybrid publications. All work starts from the source file (markdown), which is then converted to files suitable for web, print and ebooks.

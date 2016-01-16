@@ -33,3 +33,4 @@ In the Footnote Options panel > Layout, set the space between footnotes: 1mm.
 
 1. Make sure to check out linked icmls - or it say it can't find matches even when you can see them!
 2. You can leave the Change Format panel it still fixes the space between issue.
+

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <title></title>
+  <style type="text/css">code{white-space: pre;}</style>
+  <link rel="stylesheet" href="main.css">
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<h1 id="indesign-tips-for-theory-on-demand-publication">InDesign Tips for Theory on Demand Publication</h1>
+<h2 id="page-breaks">Page breaks</h2>
+<p>You may want text to start on a new page, i.e. H1 headers may need to start on new pages, in this case you can insert a Break Character.</p>
+<h3 id="how">How</h3>
+<p>Choose Type &gt; Insert Break Character Manually: On a Mac laptop where there is no dedicated Enter key - use Command + Fn + Return.</p>
+<h2 id="footnotes">Footnotes</h2>
+<p><strong>Rule</strong></p>
+<p>footnote rule above - fix this in Type &gt; Document Footnote options &gt; rule above: continued footnotes</p>
+<p><strong>Spacing in footnotes</strong></p>
+<p>If you have a problem with a line space between footnotes creating too much space, you want to use the Find/Change function to fix these throughout the document. Show hidden characters to see if this is your problem, it will look like this, (on left between footnote 2 and 3):</p>
+<figure>
+<img src="imgs/footnote-spaces.png" />
+</figure>
+<h3 id="how-1">How</h3>
+<ol type="1">
+<li>Open the Find/Change panel &amp; use the GREP section. You want to find an 'end of story marker' # need to use find/change &gt; combining with non-breaking space (~S) this solves it!</li>
+<li>Click Find, and once you're satisfied it finds the right part in the footnotes (by selecting Find Format: Paragraph Style: Footnote&gt;Paragraph) you can:</li>
+<li>Press Change or Change All</li>
+<li>Press Done</li>
+</ol>
+<p>Then go to the Footnote Options In the Footnote Options panel &gt; Layout, set the space between footnotes: 1mm.</p>
+<p><strong>Note:</strong></p>
+<ol type="1">
+<li>Make sure to check out linked icmls - or it say it can't find matches even when you can see them!</li>
+<li>You can leave the Change Format panel it still fixes the space between issue.</li>
+</ol>
+</body>
+</html>
